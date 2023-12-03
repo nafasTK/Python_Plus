@@ -33,7 +33,7 @@ while b == True :
     player2 = computerMove
 
     if player1 == "rock" and player2 == "scissors":
-        print ("player 1 wins !")
+        print (f"{name1} wins !")
         print(" ")
         player1_score = player1_score + 1
 
@@ -81,23 +81,4 @@ while b == True :
             print(f"{name2} win the game !")
         break
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+input ()
