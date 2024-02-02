@@ -1,0 +1,358 @@
+products_list = {
+    "milk" : 4,
+    "chocolate": 3,
+    "banana": 5,
+	"butter": 2,
+}
+for products in products_list :
+    print (products)
+a = True
+coast_1 = 0
+coast_2 = 0
+coast_3 = 0
+coast_4 = 0
+coast_5 = 0
+coast_6 = 0
+coast_7 = 0
+coast_8 = 0
+coast_9 = 0
+coast_10 = 0
+coast_11 = 0
+coast_12 = 0
+
+###################################################################
+
+#First day
+
+print (" ")
+print ("First day :")
+
+milk_1 = int(input("How many bottles of milk did you sell ? "))
+coast_1 = milk_1 * 4
+
+chocolate_1 = int(input("How many chocolates did you sell ? "))
+coast_2 = chocolate_1 * 3
+
+banana_1 = int(input("How many bananas did you sell ? "))
+coast_3 = banana_1 * 5
+
+butter_1 = int(input("How many butters did you sell ? "))
+coast_4 = butter_1 * 2
+
+a = coast_1 + coast_2 + coast_3 + coast_4
+
+print (f"you sold ${a} today")
+
+###################################################################
+
+#Second day
+
+print (" ")
+print ("Second day :")
+
+milk_2 = int(input("How many bottles of milk did you sell ? "))
+coast_5 = milk_2 * 4
+
+chocolate_2 = int(input("How many chocolates did you sell ? "))
+coast_6 = chocolate_2 * 3
+
+banana_2 = int(input("How many bananas did you sell ? "))
+coast_7 = banana_2 * 5
+
+butter_2 = int(input("How many butters did you sell ? "))
+coast_8 = butter_2 * 2
+
+b = coast_5 + coast_6 + coast_7 + coast_8
+
+print (f"you sold ${b} today")
+
+###################################################################
+
+#Third day
+
+print (" ")
+print ("Third day :")
+
+milk_3 = int(input("How many bottles of milk did you sell ? "))
+coast_9 = milk_3 * 4
+
+chocolate_3 = int(input("How many chocolates did you sell ? "))
+coast_10 = chocolate_3 * 3
+
+banana_3 = int(input("How many bananas did you sell ? "))
+coast_11 = banana_3 * 5
+
+butter_3 = int(input("How many butters did you sell ? "))
+coast_12 = butter_3 * 2
+
+c = coast_9 + coast_10 + coast_11 + coast_12
+
+print (f"you sold ${c} today")
+
+money = a + b + c
+
+print (" ")
+
+print (f"you have ${money}")
+
+###################################################################
+
+#Comparison of sales of days
+
+print(" ")
+
+print ("you sold more in :")
+
+if a > b > c :
+	print ("First day > Second day > Third day ")
+
+elif a > c > b :
+	print ("First day > Third day > Second day ")
+
+elif c > a > b :
+	print ("Third day > First day > second day ")
+
+elif c > b > a :
+	print ("Third day > Second day > First day ")
+
+elif b > c > a :
+	print ("Second day > third day > First day ")
+
+elif b > a > c :
+	print ("Second day > First day > Third day ")
+
+
+
+elif a == c and c > b :
+	print ("Second day < First day = Third day")
+
+elif a == c and c < b :
+	print ("Second day > First day = Third day")
+
+elif b == c and c > a :
+	print ("First day < Third day = Second day")
+
+elif b == c and c < a :
+	print ("First day > Third day = Second day")
+
+elif b == a and a > c :
+	print ("Third day < First day = Second day")
+
+elif b == a and a < c :
+	print ("Third day > First day = Second day")
+
+elif a == b == c :
+	print ("First day = Second day = Third day ")
+
+else :
+	print ("it is wrong !")
+
+
+###################################################################
+
+#Comparison of sales of milk
+
+print (" ")
+
+print ("you sold more milk in :")
+
+if milk_1 > milk_2 > milk_3 :
+	print ("First day > Second day > Third day ")
+
+elif milk_1 > milk_3 > milk_2 :
+	print ("First day > Third day > Second day ")
+
+elif milk_3 > milk_1 > milk_2 :
+	print ("Third day > First day > second day ")
+
+elif milk_3 > milk_2 > milk_1 :
+	print ("Third day > Second day > First day ")
+
+elif milk_2 > milk_3 > milk_1 :
+	print ("Second day > third day > First day ")
+
+elif milk_2 > milk_1 > milk_3 :
+	print ("Second day > First day > Third day ")
+
+
+
+elif milk_1 == milk_3 and milk_3 > milk_2 :
+	print ("Second day < First day = Third day")
+
+elif milk_1 == milk_3 and milk_3 < milk_2 :
+	print ("Second day > First day = Third day")
+
+elif milk_2 == milk_3 and milk_3 > milk_1 :
+	print ("First day < Third day = Second day")
+
+elif milk_2 == milk_3 and milk_3 < milk_1 :
+	print ("First day > Third day = Second day")
+
+elif milk_2 == milk_1 and milk_1 > milk_3 :
+	print ("Third day < First day = Second day")
+
+elif milk_2 == milk_1 and milk_1 < milk_3 :
+	print ("Third day > First day = Second day")
+
+elif milk_1 == milk_2 == milk_3 :
+	print ("First day = Second day = Third day ")
+
+else :
+	print ("it is wrong !")
+
+###################################################################
+
+#Comparison of sales of chocolate
+
+print (" ")
+
+print ("you sold more chocolate in :")
+
+if chocolate_1 > chocolate_2 > chocolate_3 :
+	print ("First day > Second day > Third day ")
+
+elif chocolate_1 > chocolate_3 > chocolate_2 :
+	print ("First day > Third day > Second day ")
+
+elif chocolate_3 > chocolate_1 > chocolate_2 :
+	print ("Third day > First day > second day ")
+
+elif chocolate_3 > chocolate_2 > chocolate_1 :
+	print ("Third day > Second day > First day ")
+
+elif chocolate_2 > chocolate_3 > chocolate_1 :
+	print ("Second day > third day > First day ")
+
+elif chocolate_2 > chocolate_1 > chocolate_3 :
+	print ("Second day > First day > Third day ")
+
+
+
+elif chocolate_1 == chocolate_3 and chocolate_3 > chocolate_2 :
+	print ("Second day < First day = Third day")
+
+elif chocolate_1 == chocolate_3 and chocolate_3 < chocolate_2 :
+	print ("Second day > First day = Third day")
+
+elif chocolate_2 == chocolate_3 and chocolate_3 > chocolate_1 :
+	print ("First day < Third day = Second day")
+
+elif chocolate_2 == chocolate_3 and chocolate_3 < chocolate_1 :
+	print ("First day > Third day = Second day")
+
+elif chocolate_2 == chocolate_1 and chocolate_1 > chocolate_3 :
+	print ("Third day < First day = Second day")
+
+elif chocolate_2 == chocolate_1 and chocolate_1 < chocolate_3 :
+	print ("Third day > First day = Second day")
+
+elif chocolate_1 == chocolate_2 == chocolate_3 :
+	print ("First day = Second day = Third day ")
+
+else :
+	print ("it is wrong !")
+
+###################################################################
+
+#Comparison of sales of banana
+
+print (" ")
+
+print ("you sold more banana in :")
+
+if banana_1 > banana_2 > banana_3 :
+	print ("First day > Second day > Third day ")
+
+elif banana_1 > banana_3 > banana_2 :
+	print ("First day > Third day > Second day ")
+
+elif banana_3 > banana_1 > banana_2 :
+	print ("Third day > First day > second day ")
+
+elif banana_3 > banana_2 > banana_1 :
+	print ("Third day > Second day > First day ")
+
+elif banana_2 > banana_3 > banana_1 :
+	print ("Second day > third day > First day ")
+
+elif banana_2 > banana_1 > banana_3 :
+	print ("Second day > First day > Third day ")
+
+
+
+elif banana_1 == banana_3 and banana_3 > banana_2 :
+	print ("Second day < First day = Third day")
+
+elif banana_1 == banana_3 and banana_3 < banana_2 :
+	print ("Second day > First day = Third day")
+
+elif banana_2 == banana_3 and banana_3 > banana_1 :
+	print ("First day < Third day = Second day")
+
+elif banana_2 == banana_3 and banana_3 < banana_1 :
+	print ("First day > Third day = Second day")
+
+elif banana_2 == banana_1 and banana_1 > banana_3 :
+	print ("Third day < First day = Second day")
+
+elif banana_2 == banana_1 and banana_1 < banana_3 :
+	print ("Third day > First day = Second day")
+
+elif banana_1 == banana_2 == banana_3 :
+	print ("First day = Second day = Third day ")
+
+else :
+	print ("it is wrong !")
+
+###################################################################
+
+#Comparison of sales of butter
+
+print (" ")
+
+print ("you sold more butter in :")
+
+if butter_1 > butter_2 > butter_3 :
+	print ("First day > Second day > Third day ")
+
+elif butter_1 > butter_3 > butter_2 :
+	print ("First day > Third day > Second day ")
+
+elif butter_3 > butter_1 > butter_2 :
+	print ("Third day > First day > second day ")
+
+elif butter_3 > butter_2 > butter_1 :
+	print ("Third day > Second day > First day ")
+
+elif butter_2 > banana_3 > butter_1 :
+	print ("Second day > third day > First day ")
+
+elif butter_2 > butter_1 > butter_3 :
+	print ("Second day > First day > Third day ")
+
+
+
+elif butter_1 == butter_3 and butter_3 > butter_2 :
+	print ("Second day < First day = Third day")
+
+elif butter_1 == butter_3 and butter_3 < butter_2 :
+	print ("Second day > First day = Third day")
+
+elif butter_2 == butter_3 and butter_3 > butter_1 :
+	print ("First day < Third day = Second day")
+
+elif butter_2 == butter_3 and butter_3 < butter_1 :
+	print ("First day > Third day = Second day")
+
+elif butter_2 == butter_1 and butter_1 > butter_3 :
+	print ("Third day < First day = Second day")
+
+elif butter_2 == butter_1 and butter_1 < butter_3 :
+	print ("Third day > First day = Second day")
+
+elif butter_1 == butter_2 == butter_3 :
+	print ("First day = Second day = Third day ")
+
+else :
+	print ("it is wrong !")
+
