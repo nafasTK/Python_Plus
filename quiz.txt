@@ -1,0 +1,65 @@
+Date : 2024 / 9 / 5 AD
+Name : Nafas Takami
+
+A) Which one is set :
+1) o = {'a', 'b', 'c'}       2) o = ['a', 'b', 'c']
+3) o = ('a', 'b', 'c')       4) o = {'a' : 5, 'b' : 3}
+right answer : 1
+Nafas's answer : 1    |    right
+--------------------------------------------------------------------------------
+B) Which one is Exponent (Power) :
+1) *       2) %       3) //       4) **
+right answer : 4
+Nafas's answer : 4    |    right
+--------------------------------------------------------------------------------
+C) What will be the value of n :
+fruits = ('apple', 'banana', 'cherry', 'grape')
+(x, y, z, n) = fruits
+1) cherry       2)apple       3) grape       4) banana 
+right answer : 3
+Nafas's answer : 3    |    right
+--------------------------------------------------------------------------------
+D) How to removes the element at the specified position (which array) :
+1) pop()       2) clear()       3) remove()       4) reverse()
+right answer : 1
+Nafas's answer : 1    |    right
+--------------------------------------------------------------------------------
+E) How to count the letters of a variable or the number of items in a list :
+1) extend()       2) len()       3) index()       4) count()
+right answer : 2
+Nafas's answer : 2    |    right
+--------------------------------------------------------------------------------
+F) What will be the output :
+mylist = ['a', 'b', 'a', 'c', 'c']
+mylist = list(dict.fromkeys(mylist))
+print(mylist)
+1) ['a', 'b', 'c']                 2) ['a', 'c']
+3) ['a', 'b', 'a', 'c', 'c']       4) ['b']
+right answer : 1
+Nafas's answer : 1    |    right
+--------------------------------------------------------------------------------
+G) Which one is square root (after importing math) :
+1) math.floor()       2) math.ceil()       3) math.sqrt()       4) none
+right answer : 3
+Nafas's answer : 3    |    right
+--------------------------------------------------------------------------------
+H) What is the order of operators in Python :
+1) minus -> plus-division -> multiply -> power -> parentheses
+2) multiply -> division -> plus -> minus -> power -> parentheses
+3) parentheses -> power -> division -> multiply -> plus -> minus
+4) parentheses -> power -> multiply -> division -> plus -> minus
+right answer : 4
+Nafas's answer : 4    |    right
+--------------------------------------------------------------------------------
+I) How to display list from last to first : 
+1) remove()        2) reverse()       3) insert()       4) sort()
+right answer : 2
+Nafas's answer : 2    |    right
+--------------------------------------------------------------------------------
+J) Which one is False : 
+1) bool('  ')       2) bool(7)        3) bool('a')       4) bool('')
+right answer : 4
+Nafas's answer : 4    |    right
+--------------------------------------------------------------------------------
+
+Score : 100%
