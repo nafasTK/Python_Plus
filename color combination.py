@@ -1,5 +1,4 @@
 
-
 import colorsys
 import tkinter as tk
 
@@ -14,8 +13,8 @@ def hex_to_rgb(hex_color):
 
 
 print("🎨 Color Box 🎨")
-color1_hex = input("Enter your first color: ")
-color2_hex = input("Enter your second color: ")
+color1_hex = input("Enter your first color code: ")
+color2_hex = input("Enter your second color code: ")
 
 while True:
     try:
