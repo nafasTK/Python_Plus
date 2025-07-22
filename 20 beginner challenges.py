@@ -99,7 +99,7 @@ print(fibonacci_list)
 #####################__5th__#####################
 
 print("-"*120, "\nFactorial Finder:")
-
+nums_list = []
 n = 1
 a = True
 while a == True :
@@ -109,8 +109,11 @@ while a == True :
     except ValueError:
         print ("Only numbers are allowed!!")
 
-for i in range(numb5-1):
-    n = n * (n+1)
+for i in range(numb5):
+    nums_list.append(i+1)
+for p in range(numb5-1):
+    n = n * nums_list[p+1]
+
 print(f"{numb5}! = {n}")
 
 #####################__6th__#####################
